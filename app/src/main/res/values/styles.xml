@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.MyCard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/icici_orange</item>
+        <item name="colorPrimaryVariant">@color/icici_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/icici_bg</item>
+    </style>
+</resources>
