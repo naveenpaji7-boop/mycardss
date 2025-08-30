@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/icici_bg">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:hint="Enter your name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/icici_hint"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:hint="Enter 10-digit phone number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/icici_hint"
+        android:layout_below="@id/editTextName"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:text="Sign Up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber"
+        android:backgroundTint="@color/icici_orange"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
